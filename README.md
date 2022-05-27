@@ -1,5 +1,12 @@
 # Fake It Till You Make It: Near-Distribution Novelty Detection by Score-Based Generative Models
-Official PyTorch implementation of "Fake It Till You Make It: Near-Distribution Novelty Detection by Score-Based Generative Models" by Anonymous Author(s)
+Official PyTorch implementation of "Fake It Till You Make It: Near-Distribution Novelty Detection by Score-Based Generative Models" by 
+Hossein Mirzaei,
+ [Mohammadreza Salehi](https://scholar.google.com/citations?user=kpT3gcsAAAAJ&hl=en),
+ Sajjad Shahabi,
+  [Efstratios Gavves](https://scholar.google.com/citations?user=QqfCvsgAAAAJ&hl=en), 
+  [Cees G. M. Snoek](https://scholar.google.com/citations?user=0uKdbscAAAAJ&hl=en), 
+  [Mohammad Sabokrou](https://scholar.google.com/citations?user=jqHXvT0AAAAJ&hl=en), 
+  [Mohammad Hossein Rohban](https://scholar.google.com/citations?user=pRyJ6FkAAAAJ&hl=en)
 
 <!-- ![FFF2-1](https://user-images.githubusercontent.com/33581331/170314540-1689d686-1d53-43e2-bd43-253b51f1b805.png)  -->
 <p align="center">
@@ -62,8 +69,19 @@ In this section, the dataset for the CIFAR-10-FSDE benchmark is provided. This d
 To download the dataset, please use the link provided below:
 - [CIFAR-10-FSDE](https://drive.google.com/file/d/1_sKwq1yG-0zdvUHBRXItJ6Cib6lpQJja)
 
-This dataset contains the test samples for every class of the CIFAR-10 dataset (1000 samples per class). These samples are concatenated together in the manner described in the [datasets](#Datasets) section.
+This dataset contains the test samples for every class of the CIFAR-10 dataset (1000 samples per class). These samples are concatenated together in the manner described in the [Datasets](#Datasets) section.
 
 To see the performance of various anomaly detection and out-of-distribution methods, please refer to our paper.
 
 ## 5. Citation
+If you find this useful for your research, please cite the following paper:
+``` bash
+@article{mirzaei2022fitymi,
+  title={Fake It Till You Make It: Near-Distribution Novelty Detection by Score-Based Generative Models},
+  author={Hossein Mirzaei and Mohammadreza Salehi and Sajjad Shahabi and Efstratios Gavves and Cees G. M. Snoek and Mohammad Sabokrou and Mohammad Hossein Rohban},
+  year={2022},
+  eprint={2205.14297},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
+}
+```

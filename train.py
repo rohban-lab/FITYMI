@@ -7,7 +7,7 @@ from datasets.datasets_train import get_full_train_loader
 
 def freeze_model(model, layers=6):
     for i in range(layers):
-        for p in model.transformer.encoder.layer[0].parameters():
+        for p in model.transformer.encoder.layer[i].parameters():
             p.requires_grad = False
 
 

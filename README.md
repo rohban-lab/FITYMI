@@ -1,5 +1,5 @@
-# Fake It Till You Make It: Near-Distribution Novelty Detection by Score-Based Generative Models
-Official PyTorch implementation of "Fake It Till You Make It: Near-Distribution Novelty Detection by Score-Based Generative Models" by 
+# Fake It Till You Make It: Towards Accurate Near-Distribution Novelty Detection
+Official PyTorch implementation of ["Fake It Till You Make It: Towards Accurate Near-Distribution Novelty Detection" ](https://arxiv.org/abs/2205.14297) by
 Hossein Mirzaei,
  [Mohammadreza Salehi](https://scholar.google.com/citations?user=kpT3gcsAAAAJ&hl=en),
  Sajjad Shahabi,
@@ -8,7 +8,6 @@ Hossein Mirzaei,
   [Mohammad Sabokrou](https://scholar.google.com/citations?user=jqHXvT0AAAAJ&hl=en), 
   [Mohammad Hossein Rohban](https://scholar.google.com/citations?user=pRyJ6FkAAAAJ&hl=en)
 
-<!-- ![FFF2-1](https://user-images.githubusercontent.com/33581331/170314540-1689d686-1d53-43e2-bd43-253b51f1b805.png)  -->
 <p align="center">
 <img src="https://user-images.githubusercontent.com/33581331/170314540-1689d686-1d53-43e2-bd43-253b51f1b805.png" alt="Main method overview" height="550" width="750"/>
 </p>
@@ -76,12 +75,14 @@ To see the performance of various anomaly detection and out-of-distribution meth
 ## 5. Citation
 If you find this useful for your research, please cite the following paper:
 ``` bash
-@article{mirzaei2022fitymi,
-  title={Fake It Till You Make It: Near-Distribution Novelty Detection by Score-Based Generative Models},
-  author={Hossein Mirzaei and Mohammadreza Salehi and Sajjad Shahabi and Efstratios Gavves and Cees G. M. Snoek and Mohammad Sabokrou and Mohammad Hossein Rohban},
-  year={2022},
-  eprint={2205.14297},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV}
+@misc{https://doi.org/10.48550/arxiv.2205.14297,
+  doi = {10.48550/ARXIV.2205.14297},
+  url = {https://arxiv.org/abs/2205.14297},
+  author = {Mirzaei,  Hossein and Salehi,  Mohammadreza and Shahabi,  Sajjad and Gavves,  Efstratios and Snoek,  Cees G. M. and Sabokrou,  Mohammad and Rohban,  Mohammad Hossein},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV),  Machine Learning (cs.LG),  FOS: Computer and information sciences,  FOS: Computer and information sciences},
+  title = {Fake It Till You Make It: Towards Accurate Near-Distribution Novelty Detection},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
 }
 ```
